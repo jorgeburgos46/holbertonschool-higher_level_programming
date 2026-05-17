@@ -1,0 +1,40 @@
+===========================
+How to use 0-add_integer.py
+===========================
+
+Import function:
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+Test basic addition:
+    >>> add_integer(1, 2)
+    3
+
+Test with negative number:
+    >>> add_integer(100, -2)
+    98
+
+Test default value of b:
+    >>> add_integer(2)
+    100
+
+Test with floats:
+    >>> add_integer(100.3, -2)
+    98
+
+Test b not integer:
+    >>> add_integer(4, "School")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+Test a is None:
+    >>> add_integer(None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+Test both floats:
+    >>> add_integer(1.5, 2.5)
+    3
+
+Test negative floats:
+    >>> add_integer(-1.9, -2.9)
+    -3
