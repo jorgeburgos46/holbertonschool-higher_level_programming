@@ -52,7 +52,7 @@ class SinglyLinkedList:
         return result.rstrip("\n")
 
     def sorted_insert(self, value):
-        """Inserts a new Node in correct sorted position in increasing order."""
+        """Inserts a new Node in sorted position in increasing order."""
         new_node = Node(value)
         if self.__head is None or value < self.__head.data:
             new_node.next_node = self.__head
