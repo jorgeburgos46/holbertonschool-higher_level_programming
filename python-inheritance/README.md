@@ -12,13 +12,13 @@ This project covers Python inheritance concepts and includes minimal exercises f
 
 ### `lookup`
 
-```bash
+```
 python3 -c "lookup = __import__('0-lookup').lookup; print(lookup(int))"
 ```
 
 ### `MyList`
 
-```bash
+```
 cat <<'PY' > /tmp/1-main.py
 #!/usr/bin/python3
 MyList = __import__('1-my_list').MyList
