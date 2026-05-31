@@ -4,5 +4,8 @@ inherits from that class."""
 
 
 def is_kind_of_class(obj, a_class):
-    """Return True if obj is instance of a_class or of a subclass of a_class."""
+    """Return True if obj is instance of a_class or of a subclass.
+
+    The object may be an instance of a_class or a subclass of a_class.
+    """
     return isinstance(obj, a_class)
