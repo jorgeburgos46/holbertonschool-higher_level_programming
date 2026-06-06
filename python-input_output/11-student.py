@@ -22,6 +22,6 @@ class Student:
         return obj_dict
 
     def reload_from_json(self, json):
-        """Replace all attributes of the Student instance from json dictionary."""
+        """Replace all attributes from a JSON dictionary."""
         for key, value in json.items():
             setattr(self, key, value)
